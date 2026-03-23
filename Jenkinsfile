@@ -6,7 +6,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-token',
-                    url: https://github.com/WilsonE24-byte/Springboot-demo
+                    url: 'https://github.com/WilsonE24-byte/Springboot-demo.git'
             }
         }
 
